@@ -1,0 +1,20 @@
+{
+  "name": "offline-click-app",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node build",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "^1.1.0",
+    "@sveltejs/kit": "^1.1.0",
+    "svelte": "^3.54.0",
+    "vite": "^4.0.0",
+    "vitest": "^0.25.3"
+  }
+}
